@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+/* body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  width: max-content;
+}
+
+h1::after {
+  content: "";
+  background-color: aquamarine;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  bottom: -6px;
+  left: 0;
+}
+
+p {
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* body {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+} */
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.nav-container {
+  font-family: "Fredoka", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.nav-icon {
+  display: flex;
+  gap: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.hero-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.hero-text h2 {
+  font-family: "Fredoka", sans-serif;
+  margin-right: 100px;
+  font-size: 75px;
+  line-height: 60px;
+}
+
+.hero-text p {
+  font-family: "Fredoka", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.btn button {
+  font-family: "Fredoka", sans-serif;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+
+  color: white;
+  display: inline-block;
+  background-color: rgb(34, 83, 99);
+  outline: none;
+  padding: 10px 50px 10px 50px;
+  font-size: 15px;
+  border-radius: 7px;
+  letter-spacing: 2px;
+}
