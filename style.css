@@ -137,6 +137,7 @@ header {
   position: sticky;
   top: 15px;
   justify-content: center;
+  z-index: 100;
 }
 
 .nav-container {
@@ -172,12 +173,6 @@ header {
   gap: 20px;
 }
 
-.position {
-  position: absolute;
-  top: 30%;
-  right: 20%;
-}
-
 li a {
   text-decoration: none;
   color: black;
@@ -193,6 +188,7 @@ section {
 .hero-img img {
   max-width: 500px;
   width: 100%;
+  z-index: -1;
 }
 
 .hero-img {
